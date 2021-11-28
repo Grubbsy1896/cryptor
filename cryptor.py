@@ -19,9 +19,9 @@ import wx
 # Funcs
 #
 
-
 # From Stack overflow.
 # https://stackoverflow.com/questions/9319317/quick-and-easy-file-dialog-in-python/9319832#9319832
+# It opens the file prompt to select a file for opening it. (User friendly)
 def get_path():
     app = wx.App(None)
     style = wx.FD_OPEN | wx.FD_FILE_MUST_EXIST
@@ -98,15 +98,4 @@ if str(inp) == "2":
         print(f"Saved at {ROOT_DIR}/outputs/{name}_decrypted.txt")
     else:
         print("File Not Saved.")
-
-# with open(f"{ROOT_DIR}/output.txt", 'x') as newfile:
-#     newfile.write(output)
-
-# This is a test file to encrypt
-# I like to program a lot and I'm just testing as many characters as I can.
-
-# A Good password would be one like: 
-# P455W0RD!@#$%^ 
-
-# Because it has a lot of numbers and symbols. 
-# IT IS MISSING LOWERCASE CHARACTERS THOUGH>>>>>> 
+#===
