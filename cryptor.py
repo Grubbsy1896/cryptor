@@ -8,7 +8,6 @@
 import json
 from os import defpath
 from dataloader import save_json, ROOT_DIR
-import easygui
 from encryptor import encrpyt
 from decryptor import decrypt
 from keygen import createkey
