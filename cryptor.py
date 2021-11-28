@@ -19,6 +19,9 @@ import wx
 # Funcs
 #
 
+
+# From Stack overflow.
+# https://stackoverflow.com/questions/9319317/quick-and-easy-file-dialog-in-python/9319832#9319832
 def get_path():
     app = wx.App(None)
     style = wx.FD_OPEN | wx.FD_FILE_MUST_EXIST
